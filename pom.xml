@@ -9,6 +9,36 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
+    <name>querydsl-jpa-starter</name>
+    <url>https://github.com/shoopman/querydsl-jap-starter</url>
+    <description>Capture Java and Spring exceptions automatically</description>
+    <licenses>
+        <license>
+            <name>Apache License 2.0</name>
+            <url>https://github.com/shoopman/querydsl-jap-starter/blob/master/LICENSE</url>
+            <distribution>repo</distribution>
+            <comments>A permissive license whose main conditions require preservation of copyright and license
+                notices.
+            </comments>
+        </license>
+    </licenses>
+    <scm>
+        <url>https://github.com/shoopman/querydsl-jap-starter</url>
+        <connection>https://github.com/shoopman/querydsl-jap-starter.git</connection>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>Cary Luang</name>
+            <id>shoopman</id>
+            <email>shoopman917@gmail.com</email>
+            <roles>
+                <role>Developer</role>
+            </roles>
+            <timezone>+8</timezone>
+        </developer>
+    </developers>
+
     <properties>
         <spring.boot.version>2.1.3.RELEASE</spring.boot.version>
         <querydsl.version>4.2.1</querydsl.version>
